@@ -1,0 +1,59 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build output
+dist
+dist-ssr
+build
+release
+stats.html
+*.local
+
+# Tauri
+src-tauri/target/
+src-tauri/gen/schemas
+src-tauri/bin/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Caches
+.cache
+.temp
+.tmp
+*.tsbuildinfo
+.eslintcache
+coverage/
+.vite
+
+# Rust
+**/*.rs.bk
+*.pdb
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea
+.fleet/
+.clj-kondo
+.clj-lsp
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
